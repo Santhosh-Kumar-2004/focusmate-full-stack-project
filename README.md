@@ -50,3 +50,19 @@ pip install -r requirements.txt
 cd ../frontend
 npm install
 npm run dev
+```
+
+🎯 Future Improvements
+Drag and drop rescheduling
+
+Reminder notifications
+
+Pomodoro timer integration
+
+Daily summary and analytics
+
+📜 License
+This project is licensed under the MIT License.
+
+💡 Inspiration
+Built during a 48-hour hackathon to solve a simple yet universal problem—how to plan your day smarter.
