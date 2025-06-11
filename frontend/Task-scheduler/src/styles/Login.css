@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #121212;
+}
+
+.login-box {
+  background-color: #1e1e1e;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 123, 255, 0.3);
+  width: 350px;
+  text-align: center;
+}
+
+.login-box h2 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: #2b2b2b;
+  color: #f0f0f0;
+}
+
+.login-box input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #0056b3;
+}
+
+.register-text {
+  color: #ccc;
+  margin-top: 1rem;
+}
+
+.link {
+  color: #00b7ff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.LoginTitle {
+  color: #007bff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,73 @@
+/* styles/Dashboard.css */
+
+/* Overall Page Styling */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f172a; /* Dark navy background */
+  color: #f8fafc; /* Light text for contrast */
+}
+
+/* Dashboard Container Layout */
+.dashboard-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Main Content Styling */
+.dashboard-main {
+  width: 100%;
+  max-width: 1000px; /* Previously 700px */
+  margin: 2rem auto;
+  background-color: #1e293b;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+}
+
+/* Section Spacing */
+.task-section {
+  margin-top: 2rem;
+}
+
+/* Section Headers */
+h2 {
+  text-align: center;
+  color: #38bdf8;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+button {
+  background-color: #38bdf8;
+  border: none;
+  padding: 0.65rem 1.4rem;
+  font-weight: bold;
+  color: #0f172a;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 6px rgba(56, 189, 248, 0.3);
+}
+
+button:hover {
+  background-color: #0ea5e9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.5);
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 768px) {
+  .dashboard-main {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}

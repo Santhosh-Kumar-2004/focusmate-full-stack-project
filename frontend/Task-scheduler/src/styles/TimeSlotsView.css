@@ -1,0 +1,52 @@
+/* TimeSlotsView.css */
+
+.timeline-container {
+  margin-top: 2rem;
+  background-color: #1f1f2e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.timeline-empty {
+  color: #999;
+  font-style: italic;
+}
+
+.timeline-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  background-color: #2d2d44;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.timeline-item:hover {
+  background-color: #3a3a58;
+}
+
+.time-slot {
+  font-weight: bold;
+  color: #00bcd4;
+  width: 110px;
+}
+
+.task-name {
+  flex: 1;
+}
